@@ -1,0 +1,713 @@
+# Chinese translation of fwitux
+# Copyright (C) 2010, package writer
+# This file is distributed under the same license as the fwitux package.
+#
+# WangXiaohui <ewangplay@gmail.com>, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: fwitux 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-01 19:45+0900\n"
+"PO-Revision-Date: 2010-08-01 21:53+0800\n"
+"Last-Translator: Wang Xiaohui <ewangplay@gmail.com>\n"
+"Language-Team:  <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/account_dlg.xml.h:1
+msgid "Automatic Login?"
+msgstr "自动登录？"
+
+#: ../data/account_dlg.xml.h:2
+msgid "Show Password"
+msgstr "显示密码"
+
+#: ../data/account_dlg.xml.h:3
+msgid "Follow5 Account"
+msgstr "Follow5账户"
+
+#: ../data/account_dlg.xml.h:4
+msgid "_Password:"
+msgstr "密码(_P)"
+
+#: ../data/account_dlg.xml.h:5
+msgid "_Username:"
+msgstr "用户名(_U)"
+
+#: ../data/lists_dlg.xml.h:1
+msgid "Users"
+msgstr "用户"
+
+#: ../data/lists_dlg.xml.h:2
+msgid "Name"
+msgstr "用户名"
+
+#: ../data/lists_dlg.xml.h:3
+msgid "Sex"
+msgstr "性别"
+
+#: ../data/lists_dlg.xml.h:4
+msgid "User lists"
+msgstr "用户列表"
+
+#: ../data/lists_dlg.xml.h:5
+msgid "gtk-close"
+msgstr ""
+
+#: ../data/lists_dlg.xml.h:6
+msgid "gtk-remove"
+msgstr ""
+
+#: ../data/main_window.xml.h:1
+msgid "C_onnect"
+msgstr "连接(_o)"
+
+#: ../data/main_window.xml.h:2
+msgid "_Disconnect"
+msgstr "断开连接(_D)"
+
+#: ../data/main_window.xml.h:3
+msgid "Followed"
+msgstr "关注我的"
+
+#: ../data/main_window.xml.h:4
+msgid "Friends"
+msgstr "我的好友"
+
+#: ../data/main_window.xml.h:5
+msgid "Friends Timeline"
+msgstr "好友分享"
+
+#: ../data/main_window.xml.h:6
+msgid "My Timeline"
+msgstr "我的分享"
+
+#: ../data/main_window.xml.h:7
+msgid "New Message"
+msgstr "新的分享"
+
+#: ../data/main_window.xml.h:8
+msgid "Public Timeline"
+msgstr "最新分享"
+
+#: ../data/main_window.xml.h:9
+msgid "Send Direct Message"
+msgstr "发送私信"
+
+#: ../data/main_window.xml.h:10 ../data/fwitux.desktop.in.in.h:2
+#: ../src/fwitux-main.c:46 ../src/fwitux-preferences.c:430
+msgid "Fwitux"
+msgstr ""
+
+#: ../data/main_window.xml.h:11
+msgid "Private Timeline"
+msgstr "私密分享"
+
+#: ../data/main_window.xml.h:12
+msgid "_Account"
+msgstr "账户(_A)"
+
+#: ../data/main_window.xml.h:13
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../data/main_window.xml.h:14
+msgid "_Settings"
+msgstr "设置(_S)"
+
+#: ../data/main_window.xml.h:15
+msgid "_Refresh"
+msgstr "刷新(_R)"
+
+#: ../data/main_window.xml.h:16
+msgid "_View"
+msgstr "视图(_V)"
+
+#: ../data/main_window.xml.h:17
+msgid "gtk-about"
+msgstr ""
+
+#: ../data/main_window.xml.h:18
+msgid "gtk-preferences"
+msgstr ""
+
+#: ../data/main_window.xml.h:19
+msgid "gtk-quit"
+msgstr ""
+
+#: ../data/main_window.xml.h:20
+msgid "Followers"
+msgstr "我关注的"
+
+#: ../data/main_window.xml.h:21
+msgid "_Contents"
+msgstr "帮助文档(_C)"
+
+#: ../data/main_window.xml.h:22
+msgid "@Me Timeline"
+msgstr "@我的分享"
+
+#: ../data/prefs_dlg.xml.h:1
+msgid "<b>General</b>"
+msgstr "<b>一般设定</b>"
+
+#: ../data/prefs_dlg.xml.h:2
+msgid "<b>Languages</b>"
+msgstr "<b>语言</b>"
+
+#: ../data/prefs_dlg.xml.h:3
+msgid "<b>Options</b>"
+msgstr "<b>选项</b>"
+
+#: ../data/prefs_dlg.xml.h:4
+msgid "<b>Timelines</b>"
+msgstr "<b>时间轴</b>"
+
+#: ../data/prefs_dlg.xml.h:5
+msgid ""
+"<small>The list of languages reflects only the languages for which you have "
+"a dictionary installed.</small>"
+msgstr "<small>这些语言仅仅当你安装了相应的词典后才会起作用。</small>"
+
+#: ../data/prefs_dlg.xml.h:6
+msgid "Default _Timeline:"
+msgstr "默认时间轴(_T)"
+
+#: ../data/prefs_dlg.xml.h:7
+msgid "General"
+msgstr "一般"
+
+#: ../data/prefs_dlg.xml.h:8
+msgid "Preferences"
+msgstr "设置"
+
+#: ../data/prefs_dlg.xml.h:9
+msgid "Spell Checking"
+msgstr "拼写检查"
+
+#: ../data/prefs_dlg.xml.h:10
+msgid ""
+"This will show the full status message of the item selected in the list view."
+msgstr "显示列表中选择分享的完整内容"
+
+#: ../data/prefs_dlg.xml.h:11
+msgid "_Display notification when message received"
+msgstr "收到新消息时通知提示(_D)"
+
+#: ../data/prefs_dlg.xml.h:12
+msgid "_Enable spell checking"
+msgstr "启动拼写检查(_E)"
+
+#: ../data/prefs_dlg.xml.h:13
+msgid "_Expand messages"
+msgstr "展开信息(_E)"
+
+#: ../data/prefs_dlg.xml.h:14
+msgid "_Retrieve every:"
+msgstr "更新周期(_R):"
+
+#: ../data/prefs_dlg.xml.h:15
+msgid "_Show real names instead login user names"
+msgstr "用真实名称替代登录用户名显示(_S)"
+
+#: ../data/prefs_dlg.xml.h:16
+msgid "S_ound notification when message received"
+msgstr "收到新消息时声音提示(_0)"
+
+#: ../data/prefs_dlg.xml.h:17
+msgid "_Connect automatically"
+msgstr "自动连接(_C)"
+
+#: ../data/send_message_dlg.xml.h:1
+msgid "<span size=\"small\">Characters Available: 200</span>"
+msgstr "<span size=\"small\">可用的字符数: 200</span>"
+
+#: ../data/send_message_dlg.xml.h:2
+msgid "Choose a friend:"
+msgstr "选择好友:"
+
+#: ../data/send_message_dlg.xml.h:3
+msgid "Send Message"
+msgstr "发送信息"
+
+#: ../data/send_message_dlg.xml.h:4
+msgid "_Send"
+msgstr "发送(_S)"
+
+#: ../data/spell_dlg.xml.h:1
+msgid "Spell Checker"
+msgstr "拼写检查器"
+
+#: ../data/spell_dlg.xml.h:2
+msgid "Suggestions for the word:"
+msgstr "拼写单词建议:"
+
+#: ../data/spell_dlg.xml.h:3
+msgid "_Replace"
+msgstr "替换(_R)"
+
+#: ../data/tray_menu.xml.h:1
+msgid "_New Message"
+msgstr "新的分享(_N)"
+
+#: ../data/tray_menu.xml.h:2
+msgid "_Show Fwitux"
+msgstr "显示Fwitux(_S)"
+
+#: ../data/tray_menu.xml.h:3
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+#: ../data/fwitux.desktop.in.in.h:1
+msgid "A Follow5 client"
+msgstr "Follow5客户端"
+
+#: ../data/fwitux.schemas.in.h:1
+msgid ""
+"Comma separated list of spell checker languages to use (e.g. en, fr, nl)."
+msgstr "供拼写检查器使用的语言列表，用逗号间隔(例： en, fr, nl)"
+
+#: ../data/fwitux.schemas.in.h:2
+msgid "Enable spell checking"
+msgstr "启用拼写检查"
+
+#: ../data/fwitux.schemas.in.h:3
+msgid "Enable spell checking."
+msgstr "启用拼写检查。"
+
+#: ../data/fwitux.schemas.in.h:4
+msgid "Expand messages"
+msgstr "展开信息"
+
+#: ../data/fwitux.schemas.in.h:5
+msgid "Hide main window"
+msgstr "隐藏主窗体"
+
+#: ../data/fwitux.schemas.in.h:6
+msgid "Hide the main window."
+msgstr "隐藏主窗体。"
+
+#: ../data/fwitux.schemas.in.h:7
+msgid "Log automatically into Follow5"
+msgstr "自动登录Follow5"
+
+#: ../data/fwitux.schemas.in.h:8
+msgid "Log automatically into Follow5."
+msgstr "自动登录Follow5"
+
+#: ../data/fwitux.schemas.in.h:9
+msgid "Main window X position"
+msgstr "主窗体的X位置"
+
+#: ../data/fwitux.schemas.in.h:10
+msgid "Main window X position."
+msgstr "主窗体的X位置。"
+
+#: ../data/fwitux.schemas.in.h:11
+msgid "Main window Y position"
+msgstr "主窗体的Y位置"
+
+#: ../data/fwitux.schemas.in.h:12
+msgid "Main window Y position."
+msgstr "主窗体的Y位置。"
+
+#: ../data/fwitux.schemas.in.h:13
+msgid "Main window height"
+msgstr "主窗体高度"
+
+#: ../data/fwitux.schemas.in.h:14
+msgid "Main window height."
+msgstr "主窗体高度。"
+
+#: ../data/fwitux.schemas.in.h:15
+msgid "Main window width"
+msgstr "主窗体宽度"
+
+#: ../data/fwitux.schemas.in.h:16
+msgid "Main window width."
+msgstr "主窗体宽度。"
+
+#: ../data/fwitux.schemas.in.h:17
+msgid "Minutes between timeline retrievals"
+msgstr "试图更新间隔（分钟）"
+
+#: ../data/fwitux.schemas.in.h:18
+msgid ""
+"Minutes between timeline retrievals. Values supported are 3, 5, 15, 30, and "
+"60"
+msgstr "更新视图间隔，建议的值有3,5,15,30,60"
+
+#: ../data/fwitux.schemas.in.h:19
+msgid "Show hint about closing the main window"
+msgstr "关闭主窗体时提示确认"
+
+#: ../data/fwitux.schemas.in.h:20
+msgid "Show notification of new Follow5 messages"
+msgstr "收到新消息时通知提示"
+
+#: ../data/fwitux.schemas.in.h:21
+msgid "Show notification of new Follow5 messages."
+msgstr "收到新消息时通知提示。"
+
+#: ../data/fwitux.schemas.in.h:22
+msgid "Show real names instead login user names"
+msgstr "用真实名称替代登录用户名显示"
+
+#: ../data/fwitux.schemas.in.h:23
+msgid "Show real names instead login user names."
+msgstr "用真实名称替代登录用户名显示。"
+
+#: ../data/fwitux.schemas.in.h:24
+msgid "Spell checking languages"
+msgstr "拼写检查的语言"
+
+#: ../data/fwitux.schemas.in.h:25
+msgid "Follow5 password"
+msgstr "Follow5密码"
+
+#: ../data/fwitux.schemas.in.h:26
+msgid "Follow5 username"
+msgstr "Follow5用户"
+
+#: ../data/fwitux.schemas.in.h:27
+msgid "User's Follow5 account password."
+msgstr ""
+
+#: ../data/fwitux.schemas.in.h:28
+msgid "User's Follow5 account username."
+msgstr ""
+
+#: ../data/fwitux.schemas.in.h:29
+msgid "User's home timeline"
+msgstr ""
+
+#: ../data/fwitux.schemas.in.h:30
+msgid "User's home timeline."
+msgstr ""
+
+#: ../data/fwitux.schemas.in.h:31
+msgid ""
+"Whether or not to show the message dialog about closing the main window with "
+"the 'x' button in the title bar."
+msgstr ""
+
+#: ../src/fwitux-about.c:43
+msgid ""
+"Fwitux is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../src/fwitux-about.c:47
+msgid ""
+"Fwitux is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../src/fwitux-about.c:51
+msgid ""
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this library; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+
+#: ../src/fwitux-about.c:73
+msgid "A GNOME client for Follow5."
+msgstr "Follow5的GNOME客户端。"
+
+#: ../src/fwitux-about.c:74
+msgid "Copyright © 2010-2012 Wang Xiaohui"
+msgstr ""
+
+#: ../src/fwitux-about.c:76
+msgid "translator-credits"
+msgstr "Wang Xiaohui <ewangplay@gmail.com>"
+
+#: ../src/fwitux-app.c:407
+msgid "Fwitux is still running, it is just hidden."
+msgstr "Fwitux正在运行，处于隐藏状态。"
+
+#: ../src/fwitux-app.c:408
+msgid "Click on the notification area icon to show Fwitux."
+msgstr "单击通知区域的图标显示Fwitux。"
+
+#: ../src/fwitux-app.c:418
+msgid "You were about to quit!"
+msgstr "准备退出！"
+
+#: ../src/fwitux-app.c:419
+msgid ""
+"Since no system or notification tray has been found, this action would "
+"normally quit Fwitux.\n"
+"\n"
+"This is just a reminder, from now on, Fwitux will quit when performing this "
+"action unless you uncheck the option below."
+msgstr ""
+"因为您的系统托盘或通知区域没有被找到，该操作通常会导致程序退出。\n"
+"\n"
+"这只是一个提醒，从现在开始，程序将会在进行这一操作时退出，除非你消除该选项。"
+
+#: ../src/fwitux-app.c:1080
+msgid "tweets"
+msgstr ""
+
+#: ../src/fwitux-app.c:1082
+msgid "tweet"
+msgstr ""
+
+#: ../src/fwitux-app.c:1085
+#, c-format
+msgid "You have %i new %s."
+msgstr ""
+
+#: ../src/fwitux-hint.c:89
+msgid "Do not show this again"
+msgstr "不再显示"
+
+#: ../src/fwitux-network.c:225
+msgid "Connecting..."
+msgstr "连接..."
+
+#. UI
+#: ../src/fwitux-network.c:282 ../src/fwitux-network.c:298
+msgid "Loading timeline..."
+msgstr "加载时间轴..."
+
+#: ../src/fwitux-network.c:501
+msgid "Access denied."
+msgstr "访问被拒绝。"
+
+#: ../src/fwitux-network.c:504
+msgid "HTTP communication error."
+msgstr "HTTP通信错误。"
+
+#: ../src/fwitux-network.c:507
+msgid "Internal server error."
+msgstr "服务器内部错误"
+
+#: ../src/fwitux-network.c:510
+msgid "Stopped"
+msgstr "停止"
+
+#: ../src/fwitux-network.c:540
+msgid "Failed to save cache file."
+msgstr "保存缓存文件失败。"
+
+#: ../src/fwitux-network.c:612
+msgid "Could not retrieve password from keyring."
+msgstr "不能从Keyring获取密码"
+
+#: ../src/fwitux-network.c:657
+msgid "Status Sent"
+msgstr "分享发送完毕"
+
+#: ../src/fwitux-network.c:672
+msgid "Message Sent"
+msgstr "信息发送完毕"
+
+#: ../src/fwitux-network.c:854
+msgid "Reply Sent"
+msgstr "回复发送完毕"
+
+#: ../src/fwitux-network.c:878
+msgid "Status Deleted"
+msgstr "分享已删除"
+
+#: ../src/fwitux-network.c:717
+msgid "Timeline Loaded"
+msgstr "时间轴加载完成"
+
+#: ../src/fwitux-network.c:725
+msgid "Timeline Parser Error."
+msgstr "时间轴解析错误"
+
+#: ../src/fwitux-network.c:772
+msgid "Users parser error."
+msgstr "用户信息解析错误"
+
+#: ../src/fwitux-network.c:835
+msgid "Friend Added"
+msgstr "好友追加完成"
+
+#: ../src/fwitux-network.c:837
+msgid "Failed to add user"
+msgstr "添加用户失败"
+
+#: ../src/fwitux-network.c:854
+msgid "Friend Removed"
+msgstr "好友删除完成"
+
+#: ../src/fwitux-network.c:856
+msgid "Failed to remove user"
+msgstr "删除用户失败"
+
+#. UI
+#: ../src/fwitux-network.c:905
+msgid "Reloading timeline..."
+msgstr "正在加载时间轴..."
+
+#: ../src/fwitux-network.c:405
+msgid "Loading replies..."
+msgstr "正在加载回复列表..."
+
+#: ../src/fwitux-network.c:928
+msgid "Replies Loaded"
+msgstr "回复列表加载完成"
+
+#: ../src/fwitux-network.c:936
+msgid "Replies Parser Error."
+msgstr "回复列表解析失败."
+
+#: ../src/fwitux-network.c:1285
+msgid "Reloading replies..."
+msgstr "正在重新加载回复列表..."
+
+#: ../src/fwitux-parser.c:437
+msgid "1 second ago"
+msgstr "1秒前"
+
+#: ../src/fwitux-parser.c:441
+msgid "1 minute ago"
+msgstr "1分钟前"
+
+#: ../src/fwitux-parser.c:443
+#, c-format
+msgid "%i seconds ago"
+msgstr "%i 秒前"
+
+#: ../src/fwitux-parser.c:448
+msgid "1 hour ago"
+msgstr "1小时前"
+
+#: ../src/fwitux-parser.c:450
+#, c-format
+msgid "%i minutes ago"
+msgstr "%i 分钟前"
+
+#: ../src/fwitux-parser.c:455
+msgid "1 day ago"
+msgstr "1天前"
+
+#: ../src/fwitux-parser.c:457
+#, c-format
+msgid "%i hours ago"
+msgstr "%i 小时前"
+
+#: ../src/fwitux-parser.c:462
+msgid "1 month ago"
+msgstr "一个月前"
+
+#: ../src/fwitux-parser.c:464
+#, c-format
+msgid "%i days ago"
+msgstr "%i 天前"
+
+#: ../src/fwitux-parser.c:466
+#, c-format
+msgid "%i months ago"
+msgstr "%i 个月前"
+
+#: ../src/fwitux-preferences.c:66
+msgid "3 minutes"
+msgstr "3分钟"
+
+#: ../src/fwitux-preferences.c:67
+msgid "5 minutes"
+msgstr "5分钟"
+
+#: ../src/fwitux-preferences.c:68
+msgid "15 minutes"
+msgstr "15分钟"
+
+#: ../src/fwitux-preferences.c:69
+msgid "30 minutes"
+msgstr "30分钟"
+
+#: ../src/fwitux-preferences.c:70
+msgid "hour"
+msgstr "1小时"
+
+#: ../src/fwitux-preferences.c:215
+msgid "Language"
+msgstr "语言"
+
+#: ../src/fwitux-preferences.c:424
+msgid "Public"
+msgstr "公共"
+
+#: ../src/fwitux-preferences.c:425
+msgid "Friend"
+msgstr "好友"
+
+#: ../src/fwitux-preferences.c:426
+msgid "Mine"
+msgstr "我的"
+
+#: ../src/fwitux-preferences.c:427
+msgid "Private"
+msgstr "私密"
+
+#: ../src/fwitux-preferences.c:428
+msgid "@Me"
+msgstr "@我的"
+
+#. Set the label
+#: ../src/fwitux-send-message-dialog.c:163
+#: ../src/fwitux-send-message-dialog.c:345
+msgid "Characters Available"
+msgstr "可用字符数"
+
+#: ../src/fwitux-send-message-dialog.c:488
+msgid "_Check Word Spelling..."
+msgstr "开始单词拼写检查...(_C)"
+
+#: ../src/fwitux-spell-dialog.c:93
+msgid "Word"
+msgstr "单词"
+
+#: ../src/fwitux-spell-dialog.c:264
+msgid "Suggestions for the word"
+msgstr "修正建议"
+
+#: ../src/fwitux-tweet-list.c:333
+#: ../src/fwitux-parser.c:250
+#: ../src/fwitux-reply-list.c:272
+#: ../src/fwitux-reply-list.c:380
+#: ../src/fwitux-replies-window.c:295
+msgid "Reply"
+msgstr "回复"
+
+#: ../src/fwitux-tweet-list.c:341
+msgid "Forward"
+msgstr "转发"
+
+#: ../src/fwitux-tweet-list.c:350
+msgid "View Replies"
+msgstr "察看回复"
+
+#: ../src/fwitux-tweet-list.c:358
+#: ../src/fwitux-reply-list.c:281
+msgid "Delete"
+msgstr "删除"
+
+#: ../src/fwitux-tweet-list.c:533
+#, c-format
+msgid "Forward from %s: %s"
+msgstr "转发自%s: %s"
+
+#: ../src/fwitux-tweet-list.c:484
+#: ../src/fwitux-reply-list.c:378
+msgid "Reply Message"
+msgstr "回复消息"
+
+#: ../src/fwitux-tweet-list.c:516
+msgid "Forward Message"
+msgstr "转发消息"
+
+#: ../src/fwitux-replies-window.c:197
+msgid "Reply List"
+msgstr "回复列表"

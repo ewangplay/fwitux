@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "0.2.1">
+<!ENTITY manrevision "1.1">
+<!ENTITY date "2010年9月;">
+<!ENTITY app "Fwitux">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="en">
+  <!-- please do not change the id; for translations, change lang to -->
+
+  <!-- appropriate code -->
+
+  <articleinfo>
+    <title>&app;用户手册V&manrevision;</title>
+
+    <!-- authors -->
+
+    <copyright>
+      <year>2010</year>
+
+      <holder>Wang Xiaohui</holder>
+    </copyright>
+
+    <!-- An address can be added to the publisher information.  If a role is 
+     not specified, the publisher/author is the same for all versions of the 
+     document.  -->
+
+    <publisher>
+      <publishername>GNOME Documentation Project</publishername>
+    </publisher>
+
+    &legal;
+
+    <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+
+    <authorgroup>
+      <author role="maintainer">
+        <firstname>Wang</firstname>
+
+        <surname>Xiaohui</surname>
+
+        <!--
+        <affiliation>
+          <orgname>Fedora Project</orgname>
+
+          <address> <email>bpepple@fedoraproject.org</email> </address>
+        </affiliation>
+        -->
+      </author>
+
+      <!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.
+     
+      <othercredit role="translator">
+		<firstname>Latin</firstname> 
+		<surname>Translator 1</surname> 
+		<affiliation> 
+	  		<orgname>Latin Translation Team</orgname> 
+	  		<address> <email>translator@gnome.org</email> </address> 
+		</affiliation>
+		<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+    <!-- According to GNU FDL, revision history is mandatory if you are -->
+
+    <!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+
+    <!-- Remember to remove the &manrevision; entity from the revision entries other
+-->
+
+    <!-- than the current revision. -->
+
+    <!-- The revision numbering system for GNOME manuals is as follows: -->
+
+    <!-- * the revision number consists of two components -->
+
+    <!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+
+    <!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+
+    <!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+
+    <!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+
+    <!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+
+    <!-- to V3.0, and so on. -->
+
+    <revhistory>
+      <revision>
+        <revnumber>&app;用户手册 V&manrevision;</revnumber>
+
+        <date>&date;</date>
+
+        <revdescription>
+          <para role="author">Wang Xiaohui
+          <email>ewangplay@gmail.com</email></para>
+
+          <para role="publisher">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+
+      <revision>
+        <revnumber>&app;用户手册 V1.0</revnumber>
+
+        <date>2010年8月</date>
+
+        <revdescription>
+          <para role="author">Wang Xiaohui
+          <email>ewangplay@gmail.com</email></para>
+
+          <para role="publisher">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+    </revhistory>
+
+    <abstract role="description">
+      <para>这个用户手册描述了怎么使用&app;。</para>
+    </abstract>
+
+    <releaseinfo>这个用户手册适用的版本为&app; &appversion;。</releaseinfo>
+
+    <legalnotice>
+      <title>Feedback</title>
+
+      <para>To report a bug or make a suggestion regarding the
+      <application>&app;</application> application or this manual, follow the
+      directions in the Feedback section of the <ulink type="help"
+      url="ghelp:user-guide?feedback-bugs">GNOME User Guide</ulink>.</para>
+
+      <!-- Translators may also add here feedback address for translations -->
+    </legalnotice>
+  </articleinfo>
+
+  <indexterm zone="index">
+    <primary>&app;</primary>
+  </indexterm>
+
+  <!-- ============= Document Body ============================= -->
+
+  <!-- ============= Introduction ============================== -->
+
+  <!-- Use the Introduction section to give a brief overview of what
+     the application is and what it does. -->
+
+  <sect1 id="introduction">
+    <title>介绍</title>
+
+    <sect2 id="what-client">
+      <title>什么是&app;</title>
+
+      <para>&app;是一个微博网站Follow5的Gnome环境客户端。它可以让用户实时浏览5友们的分享和发布自己的分享到Follow5网络。
+      Fwitux客户端以简单快捷的方式使得用户跟自己的好友保持紧密联系。</para>
+    </sect2>
+
+    <sect2 id="what-follow5">
+      <title>什么是Follow5</title>
+
+      <para>Follow5是一个免费的社会化网络和微博客服务，让用户发布自己的消息，跟其他用户分享，这些分享长度限制在200个字符</para>
+
+      <para>以内，可以直接在官方网站上分享，也可以通过第三方应用来分享，如Fwitux。</para>
+    </sect2>
+  </sect1>
+
+  <!-- =========== Getting Started ============================== -->
+
+  <!-- Use the Getting Started section to describe the steps required
+     to start the application and to describe the user interface components
+     of the application. If there is other information that it is important
+     for readers to know before they start using the application, you should
+     also include this information here. 
+     If the information about how to get started is very short, you can 
+     include it in the Introduction and omit this section. -->
+
+  <sect1 id="fwitux-getting-started">
+    <title>开始</title>
+
+    <sect2 id="fwitux-start">
+      <title>如何启动&app;</title>
+
+      <para>你可以通过下面的方式来启动<application>&app;</application>：</para>
+
+      <variablelist>
+        <varlistentry>
+          <term><guimenu>应用程序</guimenu>菜单</term>
+
+          <listitem>
+            <para>选择<menuchoice>
+                <guisubmenu>互联网</guisubmenu>
+
+                <guimenuitem>Fwitux</guimenuitem>
+              </menuchoice>.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>命令行</term>
+
+          <listitem>
+            <para>从命令行启动<application>&app;</application> ,
+            键入<command>fwitux</command>后 <keycap>回车</keycap>.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect2>
+
+    <sect2 id="fwitux-start-first">
+      <title>第一次运行&app;</title>
+
+      <para>当你第一次运行<application>&app;</application>,
+      会显示<interface>Follow5账户</interface>对话框, 在这里你可以设置你的Follow5账户认证信息.</para>
+
+      <orderedlist>
+        <listitem>
+          <itemizedlist>
+            <listitem>
+              <para>输入你的Follow5<guilabel>用户名</guilabel>.</para>
+            </listitem>
+
+            <listitem>
+              <para>输入你的Follow5 <guilabel>密码</guilabel>.</para>
+            </listitem>
+
+            <listitem>
+              <para>选择<guilabel>显示密码</guilabel> ，如果你希望你的密码在 <interface>Follow5
+              账户</interface>对话框中可见.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </orderedlist>
+    </sect2>
+
+    <sect2 id="fwitux-when-start">
+      <title>运行&app;</title>
+
+      <para>当你配置好账户认证信息后启动<application>&app;</application>，将显示下面的主窗体。</para>
+
+      <!-- ==== Figure ==== -->
+
+      <figure id="mainwindow-fig">
+        <title>&app;主窗体</title>
+
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="figures/client.png" format="PNG" />
+            </imageobject>
+
+            <!-- EPS versions of the figures are not required at the moment. -->
+
+            <!-- 
+		    <imageobject>
+      		<imagedata fileref="figures/image.eps" format="EPS"/>
+    		    </imageobject>
+	    -->
+
+            <textobject>
+              <phrase>显示&app;主窗体。包含标题栏、菜单栏、分享列表和状态栏。
+              菜单栏包含Follow5、设置、视图和帮助四个主要菜单。</phrase>
+            </textobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+
+      <!-- ==== End of Figure ==== -->
+
+      <!-- Include any descriptions of the GUI immediately after the screenshot of the main UI, -->
+
+      <!-- for example, the items on the menubar and on the toolbar. This section is optional. -->
+
+      <para><xref linkend="fwitux-TBL-1" /> 描述主窗体上的主要组件</para>
+
+      <table frame="topbot" id="gossip-TBL-1">
+        <title>&app;主要组件</title>
+
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="colspec0" colwidth="29.39*" />
+
+          <colspec colname="colspec1" colwidth="70.61*" />
+
+          <thead>
+            <row rowsep="1">
+              <entry valign="top"><para>组件</para></entry>
+
+              <entry valign="top"><para>描述</para></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry valign="top"><para>菜单栏</para></entry>
+
+              <entry valign="top"><para>包含了在&app;中使用的操作菜单命令。</para></entry>
+            </row>
+
+            <row>
+              <entry valign="top"><para>分享列表</para></entry>
+
+              <entry valign="top"><para>显示从Follow5网络同步的最新分享列表。</para></entry>
+            </row>
+
+            <row>
+              <entry valign="top"><para>状态栏</para></entry>
+
+              <entry valign="top"><para>显示当前操作的状态信息。</para></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+
+  <!-- ================ Usage ================================ -->
+
+  <!-- Use this section to describe how to use the application to perform the tasks for 
+  which the application is designed. -->
+
+  <sect1 id="fwitux-basic-usage">
+    <title>基本使用</title>
+
+    <!-- TODO: Maybe the next sentence is obsolete, because usage is splitted in 
+      different sections -->
+
+    <para>你可以使用&app;完成下面的任务：</para>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-connect">
+      <title>连接Follow5</title>
+
+      <para>连接到Follow5网络，从菜单栏选择<menuchoice>
+          <guimenu>Follow5</guimenu>
+
+          <guimenuitem>连接</guimenuitem>
+        </menuchoice>。</para>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-disconnect">
+      <title>断开Follow5</title>
+
+      <para>断开Follow5网络，从菜单栏选择<menuchoice>
+          <guimenu>Follow5</guimenu>
+
+          <guimenuitem>断开连接</guimenuitem>
+        </menuchoice>。</para>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-new-message">
+      <title>新的分享</title>
+
+      <para>发布新的分享到Follow5网络：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>从菜单栏选择<menuchoice>
+              <shortcut>
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+
+                  <keycap>N</keycap>
+                </keycombo>
+              </shortcut>
+
+              <guimenu>Follow5</guimenu>
+
+              <guimenuitem>新的分享</guimenuitem>
+            </menuchoice>。</para>
+        </listitem>
+
+        <listitem>
+          <para>在&app;的托盘图标上击右键，然后选择 <guilabel>新的分享</guilabel>。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-direct-message">
+      <title>发送私信</title>
+
+      <para>直接给Follow5上的好友发送私密消息：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>从菜单栏选择<menuchoice>
+              <guimenu>Follow5</guimenu>
+
+              <guimenuitem>发送私信</guimenuitem>
+            </menuchoice>。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-refresh">
+      <title>刷新</title>
+
+      <para>立即从Follow5网络同步最新的分享：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>从菜单栏选择<menuchoice>
+              <shortcut>
+                <keycap>F5</keycap>
+              </shortcut>
+
+              <guimenu>Follow5</guimenu>
+              <guimenuitem>刷新</guimenuitem>
+            </menuchoice>。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-replies-view">
+      <title>察看回复</title>
+
+      <para>察看特定分享的所有回复：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>在分享列表中选中要察看回复的分享，击右键调出快捷菜单，
+          选择<guimenu>察看回复</guimenu>，弹出回复列表窗口。</para>
+        </listitem>
+
+        <listitem>
+          <para>在分享列表中双击要察看回复的分享，直接弹出回复列表窗口。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-reply">
+      <title>回复</title>
+
+      <para>回复指定的分享：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>在分享列表中选中要回复的分享，击右键调出快捷菜单，
+          选择<guimenu>回复</guimenu>。</para>
+        </listitem>
+
+        <listitem>
+          <para>双击指定的分享，弹出回复列表窗口，在特定的回复条目上击右键调出
+          右键菜单，选择<guimenu>回复</guimenu>。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-mention">
+      <title>@用户</title>
+
+      <para>针对特定用户发布分享：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>在分享列表中选中要@用户的分享，击右键调出快捷菜单，
+          选择<guimenu>@用户</guimenu>。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-timeline">
+      <title>切换分享视图</title>
+
+      <para>如何在不同的分享视图时间切换：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>选择<guimenu>视图</guimenu>菜单，列出了常用的分享视图，点击
+          相应的菜单项在各个视图间切换。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2 id="fwitux-friends-list">
+      <title>察看好友列表</title>
+
+      <para>如何察看好友列表：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>选择<menuchoice>
+              <guimenu>视图</guimenu>
+              <guimenuitem>我的好友</guimenuitem></menuchoice>，
+          弹出好友列表对话框。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2>
+      <title>察看我关注的用户列表</title>
+
+      <para>如何察看我关注的列表：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>选择<menuchoice>
+              <guimenu>视图</guimenu>
+              <guimenuitem>我关注的</guimenuitem></menuchoice>，
+          弹出我关注的用户列表对话框。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <!-- ================ Usage Subsection ================================ -->
+
+    <sect2>
+      <title>察看关注我的用户列表</title>
+
+      <para>如何察看关注我的列表：</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>选择<menuchoice>
+              <guimenu>视图</guimenu>
+              <guimenuitem>关注我的</guimenuitem></menuchoice>，
+          弹出关注我的用户列表对话框。</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+  </sect1>
+
+  <!-- ============= Customization ============================= -->
+
+  <!-- Use this section to describe how to customize the application. -->
+
+  <sect1 id="fwitux-prefs">
+    <title>设置</title>
+
+    <para>对&app;进行配置，从菜单栏选择<menuchoice>
+        <guimenu>设置</guimenu>
+
+        <guimenuitem>首选项</guimenuitem>
+      </menuchoice>. <guilabel>首选项</guilabel>对话框包含下面的内容：</para>
+
+    <!-- =============== Customization Subsection ================ -->
+
+    <!-- Use a new section to describe different tabbed sections on the Settings or Preferences
+	     dialog. -->
+
+    <sect2 id="fwitux-prefs-general">
+      <title>基本设置</title>
+
+      <variablelist>
+        <varlistentry>
+          <term><guilabel>一般</guilabel></term>
+
+          <listitem>
+            <itemizedlist>
+              <listitem>
+                <para>选中<guilabel>展开消息</guilabel>选项，
+                显示一个分享完整的内容，包括链接的扩展。</para>
+              </listitem>
+
+              <listitem>
+                <para>选中<guilabel>收到消息通知提示</guilabel>选项， 当有新的分享的进行系统提示。</para>
+              </listitem>
+
+              <listitem>
+                <para>选中<guilabel>自动连接</guilabel>选项，
+                当你启动&app;时会自动连接到Follow5网络。</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><guilabel>时间轴</guilabel></term>
+
+          <listitem>
+            <itemizedlist>
+              <listitem>
+                <para>为&app;选择<guilabel>默认时间轴</guilabel>，
+                启动时会自动加载默认时间轴。</para>
+              </listitem>
+
+              <listitem>
+                <para>为&app;选择<guilabel>更新周期</guilabel>，
+                &app;按照设定的时间周期自动从Follow5同步分享。</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect2>
+
+    <!-- ============= Customization Subsection ===================== -->
+
+    <!-- Another tabbed section on the Preferences dialog. -->
+
+    <!--
+    <sect2 id="fwitux-prefs-spelling">
+      <title>拼写检查</title>
+
+      <note>
+        <para>These setting might not be available if spell checking
+        capabilities were not compiled into &app;.</para>
+      </note>
+
+      <variablelist>
+        <varlistentry>
+          <term><guilabel>Languages</guilabel></term>
+
+          <listitem>
+            <itemizedlist>
+              <listitem>
+                <para>Select the languages you wish to enable for spell
+                checking</para>
+              </listitem>
+            </itemizedlist>
+
+            <tip>
+              <para>The list of languages only reflect the languages that have
+              a dictionary installed.</para>
+            </tip>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term><guilabel>Options</guilabel></term>
+
+          <listitem>
+            <itemizedlist>
+              <listitem>
+                <para>Select <guilabel>Enable spell checking</guilabel>, if
+                desired.</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect2>
+    -->
+  </sect1>
+
+  <!-- ============= Bugs ================================== -->
+
+  <!-- This section is optional and is commented out by default. 
+     You can use it to describe known bugs and limitations of the 
+	  program if there are any - please be frank and list all
+     problem<orderedlist>
+	<listitem>
+	  <para>
+            Right click a contact's nickname in the Contact List and select
+            <guimenuitem>Rename Contact</guimenuitem>.
+          </para>
+	</listitem>
+	<listitem>
+	  <para>
+            Enter a new name and click <guibutton>OK</guibutton> to apply, or
+            <guibutton>Cancel</guibutton> to discard all changes.
+          </para>
+	</listitem>
+      </orderedlist>s you know of. 
+  
+  <sect1 id="mayapp-bugs">
+  <title>Known Bugs and Limitations</title>
+  <para> </para>
+ </sect1>
+-->
+
+  <!-- ============= About ================================== -->
+
+  <!-- This section contains info about the program (not docs), such as
+      author's name(s), web page, license, feedback address. This
+      section is optional: primary place for this info is "About.." box of
+      the program. However, if you do wish to include this info in the
+      manual, this is the place to put it. Alternatively, you can put this information in the title page.-->
+
+  <sect1 id="fwitux-about">
+    <title>关于&app;</title>
+
+    <para>&app;程序由Wang Xiaohui开发维护。希望获取更多的关于本应用的信息，请访问 <ulink type="http"
+    url="http://code.google.com/p/fwitux/">&app;开发网站</ulink>.</para>
+
+    <para>本程序在GNU GPL协议下免费发布。关于本协议的条款可以参考这里<ulink type="help"
+    url="ghelp:gpl">连接</ulink>，或者你可以在源码包的COPYING文件中找到。</para>
+  </sect1>
+</article>

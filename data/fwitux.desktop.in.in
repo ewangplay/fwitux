@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+_Name=Fwitux
+_Comment=A Follow5 Client
+Exec=fwitux
+Icon=fwitux
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GTK;Network;
+

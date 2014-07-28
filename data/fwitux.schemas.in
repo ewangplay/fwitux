@@ -1,0 +1,214 @@
+<gconfschemafile>
+  <schemalist>
+    
+    <schema>
+       <key>/schemas/apps/fwitux/auth/user_id</key>
+       <applyto>/apps/fwitux/auth/user_id</applyto>
+       <owner>fwitux</owner>
+       <type>string</type>
+       <default></default>
+       <locale name="C">
+          <short>Follow5 username</short>
+          <long>User's Follow5 account username.</long>
+       </locale>
+    </schema>
+
+    <schema>
+       <key>/schemas/apps/fwitux/auth/password</key>
+       <applyto>/apps/fwitux/auth/password</applyto>
+       <owner>fwitux</owner>
+       <type>string</type>
+       <default></default>
+       <locale name="C">
+          <short>Follow5 password</short>
+          <long>User's Follow5 account password.</long>
+       </locale>
+    </schema>
+    
+    <schema>
+    	<key>/schemas/apps/fwitux/auth/auto_login</key>
+    	<applyto>/apps/fwitux/auth/auto_login</applyto>
+    	<owner>fwitux</owner>
+    	<type>bool</type>
+    	<default>true</default>
+    	<locale name="C">
+    	   <short>Log automatically into Follow5</short>
+    	   <long>Log automatically into Follow5.</long>
+    	</locale>
+    </schema>
+
+    <schema>
+    	<key>/schemas/apps/fwitux/tweets/names</key>
+    	<applyto>/apps/fwitux/tweets/names</applyto>
+    	<owner>fwitux</owner>
+    	<type>bool</type>
+    	<default>true</default>
+    	<locale name="C">
+    	   <short>Show real names instead login user names</short>
+    	   <long>Show real names instead login user names.</long>
+    	</locale>
+    </schema>
+
+    <schema>
+    	<key>/schemas/apps/fwitux/tweets/home_timeline</key>
+    	<applyto>/apps/fwitux/tweets/home_timeline</applyto>
+    	<owner>fwitux</owner>
+    	<type>string</type>
+    	<default>http://api.follow5.com/api/statuses/ friends_timeline.xml</default>
+    	<locale name="C">
+    	   <short>User's home timeline</short>
+    	   <long>User's home timeline.</long>
+    	</locale>
+    </schema>
+    
+    <schema>
+    	<key>/schemas/apps/fwitux/tweets/reload_timeline</key>
+    	<applyto>/apps/fwitux/tweets/reload_timeline</applyto>
+    	<owner>fwitux</owner>
+    	<type>int</type>
+    	<default>5</default>
+    	<locale name="C">
+    	   <short>Minutes between timeline retrievals</short>
+    	   <long>Minutes between timeline retrievals. Values supported are 3, 5, 15, 30, and 60</long>
+    	</locale>
+    </schema>
+
+    <schema>
+	<key>/schemas/apps/fwitux/ui/main_window_height</key>
+	<applyto>/apps/fwitux/ui/main_window_height</applyto>
+	<owner>fwitux</owner>
+	<type>int</type>
+	<default>0</default>
+	<locale name="C">
+	   <short>Main window height</short>
+	   <long>Main window height.</long>
+	</locale>
+     </schema>
+
+     <schema>
+	<key>/schemas/apps/fwitux/ui/main_window_width</key>
+	<applyto>/apps/fwitux/ui/main_window_width</applyto>
+	<owner>fwitux</owner>
+	<type>int</type>
+	<default>0</default>
+	<locale name="C">
+	   <short>Main window width</short>
+	   <long>Main window width.</long>
+	</locale>
+     </schema>
+
+     <schema>
+	<key>/schemas/apps/fwitux/ui/main_window_pos_x</key>
+	<applyto>/apps/fwitux/ui/main_window_pos_x</applyto>
+	<owner>fwitux</owner>
+	<type>int</type>
+	<default>0</default>
+	<locale name="C">
+	   <short>Main window X position</short>
+	   <long>Main window X position.</long>
+	</locale>
+     </schema>
+
+     <schema>
+	<key>/schemas/apps/fwitux/ui/main_window_pos_y</key>
+	<applyto>/apps/fwitux/ui/main_window_pos_y</applyto>
+	<owner>fwitux</owner>
+	<type>int</type>
+	<default>0</default>
+	<locale name="C">
+	   <short>Main window Y position</short>
+	   <long>Main window Y position.</long>
+	</locale>
+     </schema>
+     
+     <schema>
+       <key>/schemas/apps/fwitux/ui/main_window_hidden</key>
+       <applyto>/apps/fwitux/ui/main_window_hidden</applyto>
+       <owner>fwitux</owner>
+       <type>bool</type>
+       <default>false</default>
+       <locale name="C">
+          <short>Hide main window</short>
+          <long>Hide the main window.</long>
+       </locale>
+    </schema>
+     
+     <schema>
+	<key>/schemas/apps/fwitux/ui/expand_messages</key>
+	<applyto>/apps/fwitux/ui/expand_messages</applyto>
+	<owner>fwitux</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	   <short>Expand messages</short>
+	   <long>Expand messages</long>
+	</locale>
+     </schema>
+     
+     <schema>
+	<key>/schemas/apps/fwitux/ui/notify</key>
+	<applyto>/apps/fwitux/ui/notify</applyto>
+	<owner>fwitux</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	   <short>Show notification of new Follow5 messages</short>
+	   <long>Show notification of new Follow5 messages.</long>
+	</locale>
+     </schema>
+
+     <schema>
+	<key>/schemas/apps/fwitux/ui/sound</key>
+	<applyto>/apps/fwitux/ui/sound</applyto>
+	<owner>fwitux</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	   <short>Sound notification of new Follow5 messages</short>
+	   <long>Sound notification of new Follow5 messages.</long>
+	</locale>
+     </schema>
+
+     <schema>
+      <key>/schemas/apps/fwitux/ui/spell_checker_languages</key>
+      <applyto>/apps/fwitux/ui/spell_checker_languages</applyto>
+      <owner>fwitux</owner>
+      <type>string</type>
+      <default>en</default>
+      <locale name="C">
+	<short>Spell checking languages</short>
+	<long>
+	  Comma separated list of spell checker languages to use (e.g. en, fr, nl).
+	</long>
+      </locale>
+     </schema>
+
+     <schema>
+	<key>/schemas/apps/fwitux/ui/spell</key>
+	<applyto>/apps/fwitux/ui/spell</applyto>
+	<owner>fwitux</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	   <short>Enable spell checking</short>
+	   <long>Enable spell checking.</long>
+	</locale>
+     </schema>
+     
+     <schema>
+      <key>/schemas/apps/fwitux/hints/close_main_window</key>
+      <applyto>/apps/fwitux/hints/close_main_window</applyto>
+      <owner>fwitux</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show hint about closing the main window</short>
+		<long>
+			Whether or not to show the message dialog about closing the
+      		main window with the 'x' button in the title bar.
+		</long>
+      </locale>
+    </schema>
+
+  </schemalist>  
+</gconfschemafile>
